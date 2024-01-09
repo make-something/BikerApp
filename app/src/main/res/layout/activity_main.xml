@@ -85,6 +85,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="50dp"
+            android:layout_marginTop="16dp"
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -128,7 +129,7 @@
             android:id="@+id/textView17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="40dp"
             android:layout_marginEnd="32dp"
             android:layout_weight="0"
             android:text="7.000 KM"
@@ -141,21 +142,21 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="48dp"
+            android:layout_marginTop="8dp"
             android:text="Next Service at 10.000 KM "
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="normal|italic"
-            app:layout_constraintBottom_toTopOf="@+id/seekBar2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view2" />
 
         <TextView
             android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="40dp"
             android:layout_weight="0"
             android:text="Total Trip "
             android:textColor="@color/white"
