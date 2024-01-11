@@ -1,4 +1,4 @@
 Aplikasi ini dibuat dengan base android 7 
 terdapat 2 tombol di mainActivity
-terdapat 2 tombol di KeyActivity
+terdapat 2 tombol di KeyActivity yang memberikan feedback berupa vibration dan suara 
 dapat menambahkan data service record di tabel
